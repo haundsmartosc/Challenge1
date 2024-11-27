@@ -34,9 +34,7 @@ struct ContentView: View {
                     }
                     
                     Divider()
-    
-                        
-
+                    
                     Button(action: {
                         number += 1
                     }) {
@@ -50,8 +48,6 @@ struct ContentView: View {
                 .padding(.bottom)
 
             }
-            
-        
                 ZStack {
                     Text("Hello, World!")
                         .frame(width: 150.0, height: 60.0)
